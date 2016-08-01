@@ -1,0 +1,24 @@
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.geometry.Insets?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.CheckBox?>
+<GridPane fx:controller="com.lidar_pro.main.GUI.PluginsActivity.Plugins.SmoothingController"
+          xmlns:fx="http://javafx.com/fxml" alignment="TOP_LEFT" hgap="15" vgap="5">
+    <padding><Insets top ="15" right="15" left="15" bottom="15" /></padding>
+
+    <Label fx:id="label"
+           text="Smoothing coefficient:"
+           GridPane.columnIndex="0" GridPane.rowIndex="0"
+    />
+    <TextField fx:id="smoothCoef_tField"
+               GridPane.columnIndex="1" GridPane.rowIndex="0"
+    />
+    <CheckBox fx:id="enable_cb"
+                 text="Enable Smoothing"
+                 GridPane.columnIndex="0" GridPane.rowIndex="1"
+                 GridPane.halignment="RIGHT"
+    />
+</GridPane>

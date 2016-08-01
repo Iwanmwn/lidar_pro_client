@@ -1,0 +1,14 @@
+<?import javafx.scene.layout.GridPane?>
+
+<?import javafx.geometry.Insets?>
+
+<?import javafx.scene.control.MenuBar?>
+<GridPane fx:controller="com.lidar_pro.main.GUI.PluginsActivity.PluginHandlerController"
+          xmlns:fx="http://javafx.com/fxml" alignment="TOP_LEFT" hgap="0" vgap="0">
+    <padding><Insets top ="0" right="0" left="0" bottom="0" /></padding>
+
+    <MenuBar fx:id="mainMenu"
+             GridPane.columnIndex="0" GridPane.rowIndex="0"
+    />
+
+</GridPane>
